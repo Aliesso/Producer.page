@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-menu {
+    width: 79%;
+    margin: auto;
+    padding: 10px 0px;
+}
+
+.nav-menu .nav-logo {
+    float: left;
+}
+
+.nav-menu .nav-logo a {
+    font-size: 20px;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    padding: 5px 10px;
+    background-color: black;
+    border-radius: 20px;
+    letter-spacing: 1.6;
+    transition: all 1s;
+}
+
+.nav-menu .navs a {
+    color: white;
+    font-size: 20px;
+    font-family: 'Permanent Marker', cursive;
+    padding: 5px 10px;
+    background-color: black;
+    border-radius: 20px;
+    letter-spacing: 1.6;
+    transition: all 1s;
+}
+
+.nav-menu .navs {
+    float: right;
+}
+
+.nav-menu .navs ul li {
+    float: left;
+    padding: 0px 15px;
+}
+
+.header-text {
+    padding: 300px 0px;
+    text-align: center;
+}
+
+header {
+    background-image: url(../image/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.header-text h1 {
+    width: 70%;
+    margin: auto;
+    font-size: 48px;
+    color: white;
+    letter-spacing: 5px;
+    margin-bottom: 25px;
+}
+
+.header-text p {
+    width: 50%;
+    margin: auto;
+    font-size: 18px;
+    color: white;
+    padding: 25px 0;
+}
+
+.need-section {
+    background-image: url(../image/max.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.need-text {
+    padding: 240px 0;
+    text-align: center;
+    color: white;
+}
+
+.need-text h2 {
+    background-color: black;
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin-top: 60px;
+}
+
+.need-text p {
+    background-color: red;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.need-text a {
+    padding: 20px 36px;
+    background-color: #f4623a;
+    color: white;
+    border-radius: 30px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-size: 13.6px;
+    letter-spacing: 1.6px;
+    transition: all 1s;
+}
+
+.service-section {
+    padding: 120px 0;
+    margin: auto;
+    width: 80%;
+}
+
+.service-section .service-head {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.service-icon {
+    padding-top: 50px;
+}
+
+.service-icon .service-item {
+    float: left;
+    text-align: center;
+    width: 25%;
+}
+
+.service-item i {
+    color: #f4623a;
+    font-size: 50px;
+}
+
+.image-section img {
+    width: 33.333%;
+    float: left;
+}
+
+.need-section a:hover {
+    color: red;
+    background-color: yellow;
+}
+
+.nav-menu .nav-logo a:hover {
+    color: black;
+    background-color: white;
+}
+
+.nav-menu .navs a:hover {
+    color: black;
+    background-color: white;
+}
